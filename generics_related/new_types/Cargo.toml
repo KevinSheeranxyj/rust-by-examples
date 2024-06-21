@@ -1,6 +1,5 @@
-workspace = { members = [ "gen_traits","new_types"] }
 [package]
-name = "generics_related"
+name = "new_types"
 version = "0.1.0"
 edition = "2021"
 
