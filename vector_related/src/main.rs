@@ -1,13 +1,9 @@
+use vector_related::{check_ip_address, create_vector, obtain_address};
+
 fn main() {
+    create_vector();
 
-    let elem = 12u8;
-    let elem1 = 22u8;
-    let elem2 = 220u8;
-    let mut vec = Vec::new();
+    check_ip_address();
 
-    vec.push(elem1);
-    vec.push(elem2);
-    vec.push(elem);
-
-    println!("{:?}", vec);
+    obtain_address();
 }
