@@ -7,7 +7,7 @@ pub fn new_tuple() {
     println!("tuple created :{}, {}, {}", tup.0, tup.1, tup.2);
 }
 
-/// tuple example in return parameter
+/// tuple examples in return parameter
 pub fn new_tuple_by_example() {
     let s1 = String::from("hello");
 
